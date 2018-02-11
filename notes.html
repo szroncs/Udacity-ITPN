@@ -1,0 +1,36 @@
+<!-- This is how I can add comments
+oh yes it's multiline comments like """ in python; closing with:
+-->
+
+<!DOCTYPE html> <!-- This will tell the browser that it's a html file.
+  Is this considered as void element given that there is no closing part? No it is not listed as void element...
+  "every HTML document should being with a DOCTYPE declaration to be compliant with HTML standards"
+  Source: https://html.com/tags/doctype/#ixzz56jXMzZeU" -->
+<head>
+  <!-- Head contains metadata; css and javascript references-->
+  <title>Notes</title> <!-- Title content will be displayed on the browser tab-->
+</head>
+<body>
+<!-- I was wondering if the body tag omittable... yes but better if it's there
+Source: https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags-->
+  <h1>Header one... straightforward</h1>
+  <em>Emphasized text <b>bold text</b> <br> <!-- break like /n new line; void tag-->
+    This website is <a href="http://www.theuselessweb.com/">my favorite</a> <!-- a for Anchor;
+      "If the href attribute is not present, the <a> tag is not a hyperlink." Source: https://www.w3schools.com/tags/att_a_href.asp-->
+  <br>
+  <br>
+    Let's put a picture here: <img src="https://proxy.spigotmc.org/4b123d1a0ba53e5a0ee9982d40de07819a793530?url=http%3A%2F%2Fdazedimg.dazedgroup.netdna-cdn.com%2F786%2Fazure%2Fdazed-prod%2F1150%2F0%2F1150228.jpg" alt="reap what you sow">
+    <!--Void tag with attributes only: scr for source gives the addres of the image;
+    alt for alternate text for an image, if the img somehow not displayable the txt will appear-->
+  </em>
+  <p>I can set pharagraphs with this as well... Block element</p>
+  <div>
+      Div for division (section). So what's the difference between div and p?
+      "They have semantic difference - a &ltdiv&gt element is designed to describe a container of data whereas a <p> element is designed to describe a paragraph of content."
+        Source: https://stackoverflow.com/questions/2226562/what-is-the-difference-between-p-and-div
+  </div>
+  <span>Similar to div but it's an inline element</span> <!--Source: https://stackoverflow.com/questions/183532/what-is-the-difference-between-html-tags-div-and-span -->
+  <strong>What the hell will this do? OK i get it.</strong>
+    And what <form> about this?</form> <!--This is what it is for: https://www.w3schools.com/tags/tag_form.asp
+      I guess the course will deal with this later on-->
+</body>
